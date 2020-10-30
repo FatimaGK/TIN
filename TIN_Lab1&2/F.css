@@ -1,0 +1,46 @@
+body {
+	background-color: black;
+}
+
+div {
+	background-color: white;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 20px;
+	border: 1px solid #aaa;
+}
+
+h2 {
+	border-bottom: 1px solid;
+	font-family: Monospace;
+	width: 100%;
+	display: block;
+	padding: 30px;
+	margin: 20px;
+}
+
+div.text {
+	width: 75%;
+	background-color: #bbb;
+	padding: 20px;
+	margin-left: 60px;
+	border: 1px solid black;
+}
+
+a {
+	padding: 20px;
+	text-align: center;
+}
+
+a:hover {
+	color:red;
+}

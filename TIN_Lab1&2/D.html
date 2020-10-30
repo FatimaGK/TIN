@@ -1,0 +1,80 @@
+<!-- Assignment D
+Create a CSS stylesheet for HTML page from Assignment B. It should meet the following requirements:
+1.	Define style and size of font for form elements++
+2.	Define colors for field labels++
+ (mandatory fields should have different color from other fields) -->
+<!doCTYPE HTML>
+<html>
+<style>
+ 
+    input[type=text], select{
+        width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}input[type=submit] {
+  width: 100%;
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form{
+    width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset] {
+  width: 100%;
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+    
+</style>
+<head>
+
+    <title> PJATK- S19749</title>
+    <h1>------D------</h1>
+</head>
+
+<body>
+    <form allign="center">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname">
+        <label for="pass">Password:</label>
+        <input type="password" id="pass">
+    <br></br>
+        <input type="radio" name="gender" value="F">Female<br>
+        <input type="radio" name="gender" value="M">Male<br>
+ 
+    <h6>Which volor you like </h6>
+ 
+        <patern>
+            <input type="checkbox" name="COLOR " value="pink">pink<br>
+            <input type="checkbox" name="COLOR " value="black">black<br>
+            <input type="checkbox" name="COLOR " value="blue">blue<br>
+        </patern>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Rest">
+    </form>
+    
+</body>
+
+</html>

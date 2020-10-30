@@ -1,0 +1,31 @@
+
+    .column1 {
+        float: left;
+        width: 25%;
+        background-color:  rgb(108, 175, 74);
+    }
+
+    .column2 {
+        float: left;
+        width: 25%;
+        background-color: rgb(74, 121, 175);
+    }
+
+    img {
+        float: left;
+        width: 50%;
+        height: 50%;
+    }
+
+    h2 {
+        clear: left;
+    }
+
+
+
+
+
+
+
+
+
