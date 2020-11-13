@@ -1,0 +1,108 @@
+<!-- //Build a page that meets requirements from Assignment A, but using Grid -->
+<!-- Assignment A
+Use Flexbox and other properties to create a webpage meeting the following requirements:
+•	Header, using an image with rounded corners, rotated and casting shadow + text+++
+•	Gallery, located on the left, containing images with captions (use tags figure and figcaption!)++
+
+•	Text on the right (at least 5-6 paragraphs) + images and pulled quotes.
+ Text should be wrapped around images and pulled quotes.
+  Pulled quotes should be formatted to stand out from surrounding text. 
+  Text should be divided into columns, number of columns should change dynamically depending
+   on available space to maintain readability
+•	Footer – always at the end of the document
+•	Use semantic markup, remember about alt attributes
+•	On devices with <800 pixels width text should be displayed in a single column, gallery should be located afterg text
+•	(option) import two fonts, use one for headers and pulled quotes, second for main text and captions
+•	Background, colors – it is up to you
+•	Following pages contain example screenshots from a page meeting above requirements -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>May the code be with you</title>
+    <link rel="stylesheet" href="B.css">
+</head>
+
+<body>
+    <header>
+        <img class="header-img"
+            src="https://cnet3.cbsistatic.com/img/AKwgnBEtZuOfl0y-kbOJ97J0gZg=/1200x675/2019/11/19/2eddb56d-56a3-4569-874e-32cd61180d6a/babyyoda2.jpg"
+            alt="the child" style="width:300px">
+        <h1 class="center">TEXT</h1>
+    </header>
+
+    <div id="main-part">
+        <div class="gallery">
+            <figure>
+                <img src="https://www.starwarsnewsnet.com/wp-content/uploads/2020/09/Yoda_High-Republic_Title-Image.png"
+                    alt="Yoda image">
+                <figcaption>Figure 1 Baby boi</figcaption>
+            </figure>
+
+
+            <figure>
+                <img src="https://st1.bollywoodlife.com/wp-content/uploads/2019/05/star-wars-day.png"
+                    alt="Dark vader image">
+                <figcaption>Figure 2 Bad boi </figcaption>
+            </figure>
+
+
+            <figure> <img
+                    src="https://specials-images.forbesimg.com/imageserve/5e0e0438ab5be6000762cb51/960x0.jpg?fit=scale"
+                    alt="Kylo Ren image">
+                <figcaption>Figure 3 Da fuq</figcaption>
+            </figure>
+        </div>
+        <div id="main-text">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
+                elementum semper nisi.
+                Aenean vulputate eleifend tellus.</p>
+            <q>The Last Jedi has the lowest audience score of any Star Wars movie on Rotten
+                Tomatoes</q>
+            <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+                viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+                imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
+                rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing
+                sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio
+                et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.</p>
+
+            <img class="main-picture" src="https://oyster.ignimgs.com/wordpress/stg.ign.com/2018/03/1280-yoda.jpg"
+                alt="yoda ">
+            <p>Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec
+                sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida
+                magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,
+                nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis
+                mi consectetuer lacinia. Nam pretium turpis et arcu.</p>
+            <q>Do or do not. There is no try.!</q><img class="main-picture"
+                src="https://theplaylist.net/wp-content/uploads/2017/10/rey-star-wars-the-last-jedi-750x400.jpg"
+                alt="rey image">
+            <p>Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non,
+                euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus
+                turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante
+                ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor
+                congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum
+                elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit
+                amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat,
+                nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec,
+                volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum,
+                sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in
+                faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero.
+                Phasellus dolor. Maecenas vestibulum mollis.</p>
+
+
+        </div>
+
+
+    </div>
+    <footer>
+        Author: Fatma Kus S19740
+    </footer>
+</body>
+
+</html>
