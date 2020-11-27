@@ -1,0 +1,29 @@
+<!-- c)	Write a JavaScript function that checks whether a passed string is palindrome or not -->
+<!DOCTYPE html>
+<html> 
+<head>
+    <!--LINK JQUERY-->
+<script >
+const str='anna';
+const isPalindrome=(inStr)=>{
+  for(let i=0;i<inStr.length;i+=1){
+    if(inStr[i]!==inStr[inStr.length-1-i]){
+      return false;
+    }
+  }
+  return true;
+}
+console.log(isPalindrome(str));
+
+
+</script>
+</head>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML content.</p>
+
+
+</body>
+</html>
