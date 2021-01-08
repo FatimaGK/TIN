@@ -3,6 +3,7 @@ let person = {
     name: 'John',
     surname: 'Smith',
     age: 35,
+    
     greet() {
         console.log('Hello!');
     },
