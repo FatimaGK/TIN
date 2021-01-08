@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task D</title>
+    <script src="d.js"></script>
+
+    <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+            </style>
+
+</head>
+<body>
+
+    <form id="myForm">
+        Student ID:<br>
+        <input id="studentNumber" type="text" name="studentId">
+        <br>
+        Email:<br>
+        <input id="studentEmail" type="text" name="email">
+        <br><br>
+        <input type="button" value="Add Student" onclick="addStudent()">
+    </form>
+    <br><br>
+    <table id="myTable" style="width:25%">
+        <tr>
+            <th>Student Number</th>
+            <th>Email</th>
+        </tr>
+    </table>
+</body>
+</html>
