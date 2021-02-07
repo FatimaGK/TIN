@@ -2,12 +2,12 @@ var express = require('express');
 var app = express();
 
 var bodyParser = require('body-parser');
-var par = bodyParser.urlencoded({extended: false});
-var dir = "C:\\Users\\Tami\\Desktop\\New folder";
+var par = bodyParser.urlencoded({extended: false});\
+var addr = "C:\\Users\\CEM\\Desktop\\New folder";
 app.set('view engine', 'pug');
 
 app.get('/form', function(req, res) {
-    res.sendFile(dir + "/" + "b.html");
+    res.sendFile(addr + "/" + "b.html");
     //res.sendFile(b.html);
 })
 

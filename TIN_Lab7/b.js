@@ -1,12 +1,3 @@
-// var fs = require('fs');
-// fs.watch('C:\\Users\\Tami\\Desktop\\Assigment 7\\TaskFile', 
-//         { persistent: true }, function (event, fileName) {
-//     console.log("Event: " + event);
-//     console.log(fileName + "\n");
-//   });
-
-
-
 // I used fs at the beginning but the information printing 
 //was not satisfying me so I decided to use chokidar module
 var chokidar = require('chokidar');
