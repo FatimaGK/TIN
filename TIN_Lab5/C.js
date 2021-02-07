@@ -4,12 +4,11 @@ function Student(firstName, lastName, id) {
     this.id = id;
     this.courses = ['english', 'computer science'];
 }
-
-
+//for b 
 function createStudent(firstName, lastName, id)
 {
     return new Student(firstName, lastName, id);
 }
 
-console.log(createStudent('Tami', 'Anh', 1));
+console.log( reateStudent('Smithy', 'Johny', 1));
 
